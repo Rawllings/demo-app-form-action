@@ -64,6 +64,7 @@ app.get('/opinions', async (req, res) => {
   }
 });
 
+
 app.post('/opinions', async (req, res) => {
   const { userName, title, body } = req.body;
 
